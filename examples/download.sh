@@ -13,7 +13,7 @@ set -u  # Exit on undefined variables
 trap 'echo "Error occurred at line $LINENO. Command: $BASH_COMMAND"' ERR
 
 # Define installation directories
-INSTALL_DIR="/mnt/lustre/users/msovara/SoftwareBuilds/CROCO/install"
+INSTALL_DIR="/home/jmaunzejnior/CROCO"
 SRC_DIR="${INSTALL_DIR}/src"
 
 # Create directories
