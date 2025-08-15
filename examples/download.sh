@@ -106,7 +106,7 @@ if [ -d "${CROCO_DIR}" ]; then
     rm -rf "${CROCO_DIR}"
 fi
 echo "Cloning CROCO repository (branch v2.0.1)..."
-if ! git clone --branch v2.0.1 https://gitlab.inria.fr/croco-ocean/croco.git "${CROCO_DIR}"; then
+if ! git clone --branch v2.1.0 https://gitlab.inria.fr/croco-ocean/croco.git "${CROCO_DIR}"; then
     echo "ERROR: Failed to clone CROCO repository"
     exit 1
 fi
